@@ -1,5 +1,58 @@
-/* cunha vai fazer o css pq ele disse q manja*/
-
-body{
     
+:root {
+    /*Tabela de cores caso ajuda a montar a paleta de cores deixe sua opnião*/
+    --cordecor: #007bff;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: var(--cordecor);
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.box-texto {
+    background-color: var(--cordecor);
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+.texto-box-texto {
+    display: flex;
+    width:100%
+    
+}
+
+.img1 {
+    width:300px;
+    border-radius: 25px;
+}
+footer {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: var(--cordecor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
